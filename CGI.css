@@ -1,4 +1,5 @@
 :root {
+    /* Variable pour les couleurs */
     --red: #e21234;
     --beige: #F5CBB9;
     --dark-beige: #C9867E;
@@ -11,15 +12,16 @@ body {
     flex-direction: column;
     align-items: center;
 
+    color: var(--black);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: justify;
-    color: var(--black);
+
     background-color: var(--white);
 
     margin: 0;
 }
 
-/* header */
+/* Règles header */
 
 header {
     display: flex;
@@ -35,7 +37,6 @@ header {
 }
 
 /* Animation CGI logo */
-
 header > a:hover > .CGI_logo {
     animation: cgi-anim 1s ease-in-out;
 }
@@ -76,6 +77,7 @@ header nav li a {
     padding: 12px;
     line-height: 44px;
 
+/* Animation sous les liens de la navbar */
     background-image: linear-gradient(to right, var(--red) 50%, rgba(226, 18, 53, 0.3) 50%);
     background-size: 200% 3px;
     background-repeat: no-repeat;
@@ -87,19 +89,19 @@ header nav li a:hover {
     background-position: 0% 100%;
 }
 
-/* main */
+/* Règles main */
 
 main {
-    background-color: var(--dark-beige);
-    width: 100%;
-    padding: 20px;
-
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    background-color: var(--dark-beige);
+    width: 100%;
+    padding: 20px;
 }
 
-/* Règles première section */
+/* Règles premier article */
 
 .cest_quoi_cgi {
     width: 55%;
@@ -141,7 +143,7 @@ main {
     width: 66%;
 }
 
-/* Règles deuxième section */
+/* Règles deuxième article */
 
 .presentation_pages {
     display: flex;
@@ -162,6 +164,7 @@ main {
     transition: all .3s;
 }
 
+/* Animation page link */
 .page_link:hover {
     transform: scale(1.05);
 }
@@ -194,7 +197,7 @@ main {
     width: 230px;
 }
 
-/* footer */
+/* Règles footer */
 
 footer {
     display: flex;
@@ -212,22 +215,19 @@ footer nav {
 footer ul {
     display: flex;
     justify-content: space-between;
+    
     margin: 0;
     padding: 0;
 
     list-style: none;
 }
 
-footer nav li {
-    padding: 0;
-}
-
 footer nav a {
     display: inline-block;
 
     padding: 8px;
-    border-radius: 5px;
     line-height: 0;
+    border-radius: 5px;
 
     transition: all 0.3s;
 }
@@ -241,7 +241,7 @@ footer nav img {
     border-radius: 5px;
 }
 
-footer p {
+#copyright {
     font-size: 9px;
     color: grey;
 }
