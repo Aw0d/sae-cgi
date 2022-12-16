@@ -55,17 +55,17 @@ header {
 
 /* Animation CGI logo */
 header > a:hover > .CGI_logo {
-    animation: cgi-anim 1s ease-in-out;
+    animation: cgi-anim 1s;
 }
 @keyframes cgi-anim {
     0% {
-        transform: rotate3d(0, 1, 0, 0deg);
+        transform: scale(1);
     }
-    50% {
-        transform: rotate3d(0, 1, 0, 360deg) scale(1.1);
+    33% {
+        transform: scale(0.95);
     }
-    80% {
-        transform: scale(0.9);
+    66% {
+        transform: scale(1.05);
     }
     100% {
         transform: scale(1);
