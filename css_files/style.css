@@ -1,3 +1,7 @@
+/* ============================================== */
+/* Fichier de style commun à l'ensemble des pages */
+/* ============================================== */
+
 :root {
     /* Variable pour les couleurs */
     --red: #e21234;
@@ -116,124 +120,6 @@ main {
     background-color: var(--dark-beige);
     width: 100%;
     padding: 20px;
-}
-
-/* Règles des SECTION */
-.section1_structure {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-section:first-child {
-    border-bottom: 2px solid grey;
-}
-
-h1 {
-    font-size: 48px;
-}
-
-.org {
-    width: auto;
-    height: auto;
-
-    border-radius: 5px;
-}
-
-/* Règles premier article */
-
-.cest_quoi_cgi {
-    width: 55%;
-    margin-bottom: 30px;
-}
-
-.cest_quoi_cgi h1 {
-    font-size: 3.2em;
-}
-
-.cest_quoi_cgi_div {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 30px;
-}
-
-.cest_quoi_cgi_div div {
-    width: 230px;
-}
-
-.cest_quoi_cgi_div img {
-    width: 64px;
-    height: 64px;
-}
-
-.cest_quoi_cgi_div h2 {
-    font-size: 2em;
-    text-align: start;
-}
-
-/* Règles séparateur */
-
-#separator {
-    border: none;
-    border-top: solid 1px rgba(128, 128, 128);
-    border-radius: 20px;
-
-    width: 66%;
-}
-
-/* Règles deuxième article */
-
-.presentation_pages {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 30px;
-
-    width: 60%;
-    margin-top: 36px;
-}
-
-.page_link {
-    text-decoration: none;
-    color: var(--black);
-        
-    flex-grow: 0;
-    flex-basis: 280px;
-    transition: all .3s;
-}
-
-/* Animation page link */
-.page_link:hover {
-    transform: scale(1.05);
-}
-
-.presentation_pages:hover .page_link:not(:hover) {
-    opacity: 0.6;
-}
-
-.presentation_pages div {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-
-    background-color: var(--beige);
-    padding: 0 20px;
-    border-radius: 5px;
-}
-
-.presentation_pages h2 {
-    text-align: center;
-}
-
-.presentation_pages img {
-    width: 230px;
-    border-radius: 5px;
-}
-
-.presentation_pages p {
-    width: 230px;
 }
 
 /* Règles footer */

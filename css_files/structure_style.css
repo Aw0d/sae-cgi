@@ -1,0 +1,25 @@
+/* ========================================================= */
+/* Fichier de style pour la page structure&organisation.html */
+/* ========================================================= */
+
+/* Règles des SECTION */
+.section1_structure {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section:first-child {
+    border-bottom: 2px solid grey;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+.org {
+    width: auto;
+    height: auto;
+
+    border-radius: 5px;
+}
