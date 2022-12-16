@@ -7,6 +7,23 @@
     --black: #222427;
 }
 
+/* Animation lors du changement de page */
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-timing-function: ease-in;
+	animation-duration: 0.3s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -99,6 +116,28 @@ main {
     background-color: var(--dark-beige);
     width: 100%;
     padding: 20px;
+}
+
+/* Règles des SECTION */
+.section1_structure {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section:first-child {
+    border-bottom: 2px solid grey;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+.org {
+    width: auto;
+    height: auto;
+
+    border-radius: 5px;
 }
 
 /* Règles premier article */
