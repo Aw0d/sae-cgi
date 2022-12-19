@@ -30,16 +30,6 @@
     text-align: start;
 }
 
-/* Règles séparateur */
-
-#separator {
-    border: none;
-    border-top: solid 1px rgba(128, 128, 128);
-    border-radius: 20px;
-
-    width: 66%;
-}
-
 /* Règles deuxième article */
 
 .presentation_pages {

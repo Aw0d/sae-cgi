@@ -2,6 +2,11 @@
 /* Fichier de style pour la page structure&organisation.html */
 /* ========================================================= */
 
+article h1 {
+    font-size: 48px;
+    text-align: center;
+}
+
 /* Règles des SECTION */
 .section1_structure {
     display: flex;
@@ -13,13 +18,8 @@ section:first-child {
     border-bottom: 2px solid grey;
 }
 
-h1 {
-    font-size: 48px;
-}
+/* Rèlges organigramme */
 
 .org {
-    width: auto;
-    height: auto;
-
     border-radius: 5px;
 }
