@@ -3,23 +3,23 @@
 /* ========================================================= */
 
 article h1 {
-    font-size: 48px;
-    text-align: center;
+  font-size: 48px;
+  text-align: center;
 }
 
 /* Règles des SECTION */
 .section1_structure {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 section:first-child {
-    border-bottom: 2px solid grey;
+  border-bottom: 2px solid grey;
 }
 
 /* Rèlges organigramme */
 
 .org {
-    border-radius: 5px;
+  border-radius: 5px;
 }

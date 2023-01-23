@@ -1,85 +1,85 @@
 /* Règles premier article */
 
 .cest_quoi_cgi {
-    width: 55%;
-    margin-bottom: 30px;
+  width: 55%;
+  margin-bottom: 30px;
 }
 
 .cest_quoi_cgi h1 {
-    font-size: 3.2em;
+  font-size: 3.2em;
 }
 
 .cest_quoi_cgi_div {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .cest_quoi_cgi_div div {
-    width: 230px;
+  width: 230px;
 }
 
 .cest_quoi_cgi_div img {
-    width: 64px;
-    height: 64px;
+  width: 64px;
+  height: 64px;
 }
 
 .cest_quoi_cgi_div h2 {
-    font-size: 2em;
-    text-align: start;
+  font-size: 2em;
+  text-align: start;
 }
 
 /* Règles deuxième article */
 
 .presentation_pages {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
 
-    width: 60%;
-    margin-top: 36px;
+  width: 60%;
+  margin-top: 36px;
 }
 
 .page_link {
-    text-decoration: none;
-    color: var(--black);
-        
-    flex-grow: 0;
-    flex-basis: 280px;
-    transition: all .3s;
+  text-decoration: none;
+  color: var(--black);
+
+  flex-grow: 0;
+  flex-basis: 280px;
+  transition: all 0.3s;
 }
 
 /* Animation page link */
 .page_link:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .presentation_pages:hover .page_link:not(:hover) {
-    opacity: 0.6;
+  opacity: 0.6;
 }
 
 .presentation_pages div {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 
-    background-color: var(--beige);
-    padding: 0 20px;
-    border-radius: 5px;
+  background-color: var(--beige);
+  padding: 0 20px;
+  border-radius: 5px;
 }
 
 .presentation_pages h2 {
-    text-align: center;
+  text-align: center;
 }
 
 .presentation_pages img {
-    width: 230px;
-    border-radius: 5px;
+  width: 230px;
+  border-radius: 5px;
 }
 
 .presentation_pages p {
-    width: 230px;
+  width: 230px;
 }
