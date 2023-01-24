@@ -17,7 +17,9 @@
 }
 
 .cest_quoi_cgi_div div {
-  width: 230px;
+  width: 30%;
+  min-width: 230px;
+  max-width: 400px;
 }
 
 .cest_quoi_cgi_div img {
@@ -46,8 +48,10 @@
   text-decoration: none;
   color: var(--black);
 
-  flex-grow: 0;
-  flex-basis: 280px;
+  flex-basis: 30%;
+  min-width: 230px;
+  max-width: 300px;
+
   transition: all 0.3s;
 }
 
@@ -69,6 +73,8 @@
   background-color: var(--beige);
   padding: 0 20px;
   border-radius: 5px;
+
+  height: 100%;
 }
 
 .presentation_pages h2 {
@@ -76,10 +82,10 @@
 }
 
 .presentation_pages img {
-  width: 230px;
+  width: 94%;
   border-radius: 5px;
 }
 
 .presentation_pages p {
-  width: 230px;
+  width: 94%;
 }
