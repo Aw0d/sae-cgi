@@ -15,4 +15,20 @@ article {
   background-color: var(--beige);
   padding: 26px;
   border-radius: 5px;
+
+  width: 94%;
+}
+
+.plus_infos {
+  color: var(--black);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.plus_infos:hover {
+  text-decoration: underline;
+}
+
+.plus_infos:active {
+  color: black;
 }
