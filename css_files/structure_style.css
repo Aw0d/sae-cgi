@@ -2,24 +2,17 @@
 /* Fichier de style pour la page structure&organisation.html */
 /* ========================================================= */
 
-article h1 {
-  font-size: 48px;
-  text-align: center;
-}
-
-/* Règles des SECTION */
-.section1_structure {
+article {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
 
-section:first-child {
-  border-bottom: 2px solid grey;
+  margin-bottom: 18px;
 }
-
-/* Rèlges organigramme */
 
 .org {
+  background-color: var(--beige);
+  padding: 20px;
   border-radius: 5px;
 }
