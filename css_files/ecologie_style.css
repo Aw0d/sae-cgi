@@ -7,13 +7,13 @@ article {
   flex-wrap: wrap;
   flex-direction: column;
   gap: 40px;
+  min-width: 500px;
 
   width: 50%;
 }
 
 article div {
   display: flex;
-  flex-direction: column;
   align-items: center;
   gap: 20px;
 
@@ -23,7 +23,20 @@ article div {
   background-color: var(--beige);
 }
 
+article div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+}
+
 div img {
-  width: 94%;
+  width: 50%;
   border-radius: 5px;
+}
+
+div p {
+  width: 50%;
+}
+
+#chiffres {
+  width: 100%;
 }
