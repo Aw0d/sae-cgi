@@ -1,3 +1,26 @@
 /* ========================================================= */
 /* Fichier de style pour la page transition_ecologique.html */
 /* ========================================================= */
+
+article {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+  width: 50%;
+}
+
+article div {
+  display: flex;
+  gap: 20px;
+
+  padding: 12px;
+  border-radius: 5px;
+
+  background-color: var(--beige);
+}
+
+div img {
+  height: 256px;
+  border-radius: 5px;
+}
