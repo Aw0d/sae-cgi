@@ -34,6 +34,7 @@ div img {
 }
 
 div p {
+  margin: 0;
   width: 50%;
 }
 
