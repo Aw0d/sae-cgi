@@ -133,6 +133,8 @@ main {
   align-items: center;
 
   background-color: var(--dark-beige);
+  background-image: url(../img/fond.png);
+  background-blend-mode: multiply;
   width: 100%;
   padding: 20px;
 }
