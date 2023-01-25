@@ -13,7 +13,6 @@ article {
 
 article div {
   display: flex;
-  flex-direction: column;
   align-items: center;
   gap: 20px;
 
@@ -24,6 +23,10 @@ article div {
 }
 
 div img {
-  width: 94%;
+  width: 50%;
   border-radius: 5px;
+}
+
+div p {
+  width: 50%;
 }
