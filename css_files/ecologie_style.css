@@ -41,3 +41,14 @@ div p {
 #chiffres {
   width: 100%;
 }
+
+#Warren {
+  color: var(--black);
+  font-weight: bold;
+  font-style: italic;
+  transition: all 0.3s;
+}
+
+#Warren:hover {
+  color: black;
+}

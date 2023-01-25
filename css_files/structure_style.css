@@ -15,8 +15,7 @@ article {
   background-color: var(--beige);
   padding: 26px;
   border-radius: 5px;
-
-  
+  width: 94%;
 }
 
 .plus_infos {
