@@ -18,6 +18,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: PoetsenOne;
+  src: url(/fonts/PoetsenOne-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* Animation lors du changement de page */
 .fade-in > * {
   opacity: 1;
@@ -132,6 +139,11 @@ main {
   background-color: var(--dark-beige);
   width: 100%;
   padding: 20px;
+}
+
+main h1,
+main h2 {
+  font-family: "PoetsenOne";
 }
 
 /* Règles séparateur */
