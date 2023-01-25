@@ -17,8 +17,8 @@
 }
 
 @font-face {
-  font-family: PoetsenOne;
-  src: url(/fonts/PoetsenOne-Regular.ttf) format("truetype");
+  font-family: Oswald;
+  src: url(/fonts/Oswald-VariableFont_wght.ttf) format("truetype");
 }
 
 /* Animation lors du changement de page */
@@ -139,7 +139,7 @@ main {
 
 main h1,
 main h2 {
-  font-family: "PoetsenOne", sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
 /* Règles séparateur */
