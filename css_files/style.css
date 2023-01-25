@@ -13,16 +13,12 @@
 
 @font-face {
   font-family: Roboto;
-  src: url(/fonts/Roboto-Regular.ttf);
-  font-weight: normal;
-  font-style: normal;
+  src: url(/fonts/Roboto-Regular.ttf) format("truetype");
 }
 
 @font-face {
   font-family: PoetsenOne;
-  src: url(/fonts/PoetsenOne-Regular.ttf);
-  font-weight: normal;
-  font-style: normal;
+  src: url(/fonts/PoetsenOne-Regular.ttf) format("truetype");
 }
 
 /* Animation lors du changement de page */
@@ -143,7 +139,7 @@ main {
 
 main h1,
 main h2 {
-  font-family: "PoetsenOne";
+  font-family: "PoetsenOne", sans-serif;
 }
 
 /* Règles séparateur */
