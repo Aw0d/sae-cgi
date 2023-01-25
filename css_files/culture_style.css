@@ -7,5 +7,24 @@ article {
   flex-wrap: wrap;
   justify-content: space-between;
 
-  width: 80%;
+  width: 60%;
+}
+
+article div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 30%;
+  min-width: 230px;
+  max-width: 300px;
+
+  padding: 8px 20px;
+  border-radius: 5px;
+
+  background-color: var(--beige);
+}
+
+div img {
+  width: 94%;
 }
