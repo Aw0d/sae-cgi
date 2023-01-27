@@ -16,6 +16,7 @@
   margin-bottom: 20px;
   margin-inline: auto;
   width: 80%;
+  min-width: 262px;
 }
 
 #cgi {
@@ -66,7 +67,7 @@
 
 .presentation_pages {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
   gap: 30px;
 
