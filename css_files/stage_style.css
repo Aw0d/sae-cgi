@@ -150,18 +150,16 @@ textarea::placeholder {
 
   background-size: 300% 300%, 100% 100%;
 
-  transition: background-position 0s ease;
+  transition: background-position 0.7s ease;
 }
 
 .send:hover {
   cursor: pointer;
   background-position-x: left;
-  transition-duration: 0.7s;
 }
 
 .send:not(:hover) {
   background-position-x: right;
-  transition-duration: 0.7s;
 }
 
 .send:active {
