@@ -12,6 +12,7 @@
 /* Règles pour l'image */
 .cest_quoi_cgi_div1 {
   position: relative;
+  margin-bottom: 20px;
 }
 
 .badge {
@@ -19,6 +20,7 @@
 
   position: absolute;
   bottom: 0;
+  left: 0;
 
   color: var(--white);
   background-color: rgba(0, 0, 0, 0.6);
