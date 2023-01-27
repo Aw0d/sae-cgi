@@ -140,8 +140,8 @@ textarea::placeholder {
   background-color: #0c5a9e;
   background-repeat: no-repeat;
 
-  background-image: -webkit-linear-gradient(
-    left,
+  background-image: linear-gradient(
+    to left,
     rgba(233, 233, 233, 0.05) 0%,
     rgba(233, 233, 233, 0.05) 37%,
     rgba(233, 233, 233, 0.8) 45%,
