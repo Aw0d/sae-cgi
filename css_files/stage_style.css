@@ -1,3 +1,7 @@
+/* ========================================================= */
+/* Fichier de style pour la page demande_stage.html */
+/* ========================================================= */
+
 /* Règles du HTML */
 html {
   width: 100%;
@@ -50,9 +54,9 @@ main {
   flex-direction: column;
   justify-content: center;
 
+  background-image: none;
   margin: auto;
   padding: 20px;
-  height: 100%;
   max-width: 500px;
 
   border: solid 1.5px var(--black);
