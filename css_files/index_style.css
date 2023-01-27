@@ -9,27 +9,51 @@
   font-size: 3.2em;
 }
 
-.cest_quoi_cgi_div {
+.cest_quoi_cgi_div2 {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 30px;
 }
 
-.cest_quoi_cgi_div div {
+.cest_quoi_cgi_div2 div {
   width: 30%;
   min-width: 230px;
   max-width: 400px;
 }
 
-.cest_quoi_cgi_div img {
+.cest_quoi_cgi_div2 img {
   width: 64px;
   height: 64px;
 }
 
-.cest_quoi_cgi_div h2 {
+.cest_quoi_cgi_div2 h2 {
   font-size: 2em;
   text-align: start;
+}
+
+.cest_quoi_cgi_div1 {
+  position: relative;
+}
+
+.badge {
+  font-size: xx-large;
+
+  position: absolute;
+  bottom: 0;
+
+  color: var(--white);
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 0 5px 0 5px;
+
+  padding: 0.3em;
+  margin: 0;
+  margin-bottom: 4px;
+}
+
+#cgi {
+  width: 80%;
+  border-radius: 5px;
 }
 
 /* Règles deuxième article */

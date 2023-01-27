@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <title>Demande de Stage</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css_files/stage_style.css">
+    <link rel="stylesheet" href="../css_files/style.css">
+  </head>
+  <body class="fade-in">
+    <a class="return" href="../index.html">
+      <img class="logo_return" src="../img/return.png" alt="return.png">
+      <h2>Accueil</h2>
+    </a>
+    <main>
+      <h1>Demande de Stage</h1>
+      <form method="post">
+
+        <div>
+          <label for="nom">Nom :</label>
+          <input id="nom" type="text" name="nom" placeholder="votre nom">
+        </div>
+
+        <div>
+          <label for="nom">Prénom :</label>
+          <input id="prénom" type="text" name="prénom" placeholder="votre prénom">
+        </div>
+
+        <div>
+          <label for="email">E-mail :</label>
+          <input id="email" type="email" name="email" placeholder="votre adresse mail" required>
+        </div>
+
+        <fieldset>
+          <legend>Expliquez votre demande</legend> <!-- Titre du fieldset -->
+          <textarea name="bio" id="bio" cols="30" rows="2" placeholder="je suis actuellement à la recherche de..."></textarea>
+        </fieldset>
+
+          <input class="send" type="submit" value="Envoyez">
+
+      </form>
+    </main>
+
+    <footer>
+      <nav>
+        <ul>
+          <li>
+            <a href="https://twitter.com/cgi_fr"
+              ><img src="../img/twitter.png" alt="Twitter"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/CGIFrance"
+              ><img src="../img/facebook.png" alt="Facebook"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/cgifrance_tv"
+              ><img src="../img/youtube.png" alt="Youtube"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/company/cgi/"
+              ><img src="../img/linkedin.png" alt="Linked In"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+
+      <p id="copyright">© 2023 CGI Inc. 2.0</p>
+    </footer>
+  </body>
+</html>
+

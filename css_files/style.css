@@ -6,7 +6,7 @@
   /* Variable pour les couleurs */
   --red: #e21234;
   --beige: #f5cbb9;
-  --dark-beige: #c9867e;
+  --dark-beige: #d37b71;
   --white: #f6ede8;
   --black: #222427;
 }
@@ -167,6 +167,7 @@ footer {
 footer nav {
   width: 30%;
   margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 footer ul {
@@ -190,12 +191,26 @@ footer nav a {
 }
 
 footer nav a:hover {
-  background-color: var(--beige);
+  background-color: #f5cbb98e;
 }
 
 footer nav img {
   height: 32px;
   border-radius: 5px;
+}
+
+.nous_rejoindre {
+  color: var(--black);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nous_rejoindre:hover {
+  text-decoration: underline;
+}
+
+.nous_rejoindre:active {
+  color: black;
 }
 
 #copyright {

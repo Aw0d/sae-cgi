@@ -1,0 +1,208 @@
+:root {
+  /* Variable pour les couleurs */
+  --red: #e21234;
+  --beige: #f5cbb9;
+  --dark-beige: #d37b71;
+  --white: #eae4e1;
+  --black: #222427;
+}
+
+/* Règles du HTML */
+html {
+  width: 100%;
+  height: 100%;
+}
+
+/* Importation des fonts */
+@font-face {
+  font-family: Roboto;
+  src: url(../fonts/Roboto-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: Oswald;
+  src: url(../fonts/Oswald-VariableFont_wght.ttf) format("truetype");
+}
+
+/* Règles du BODY */
+body {
+  font-family: "Roboto", sans-serif;
+
+  width: 100%;
+  height: 100%;
+
+
+  background-color: var(--beige);
+  background-image: url(../img/fond.png);
+  background-blend-mode: multiply;
+
+}
+
+h2 {
+  margin: 0;
+  padding-left: 10px;
+  font-variant-caps: small-caps;
+}
+
+.return {
+  display: flex;
+  width: fit-content;
+  padding: 10px;
+
+  color: black;
+  text-decoration: none;
+
+  transition: all 0.3s;
+}
+
+.return:hover {
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.33);
+}
+
+.return:active {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.logo_return {
+  width: 30px;
+}
+
+/* Règles du MAIN */
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin: auto;
+  padding: 20px;
+  height: 100%;
+  max-height: 500px;
+  max-width: 500px;
+
+  border: solid 1.5px var(--black);
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+h1 {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/* Règles pour le FORMULAIRE */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* dans le cas d'une saisie invalide */
+form input:not(:placeholder-shown):invalid {
+  border: solid 1px tomato;
+  background-color: pink;
+}
+
+
+/* Règles pour les DIV */
+div {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+div input, div select, textarea {
+  height: 30px;
+  flex-grow: 1;
+  border-radius: 5px;
+}
+
+div label, textarea {
+  flex-basis: 230px;
+}
+
+div label {
+  margin-bottom: 5px;
+}
+
+/* Règles des INPUT */
+input, textarea {
+  padding-left: 10px;
+  border: solid var(--black) 1px;
+}
+
+/* Règles des TEXTAREA */
+textarea {
+  max-height: 150px;
+  min-height: 150px;
+  max-width: 450px;
+  min-width: 450px;
+}
+
+input::placeholder, textarea::placeholder {
+  font-variant-caps: small-caps;
+}
+
+/* Règles pour le bouton d'envoi */
+
+.send {
+  flex-grow: 1;
+  height: 40px;
+  margin: 16px 0 16px 0;
+  color: var(--white);
+  font-variant-caps: small-caps;
+
+  border: solid 1px grey;
+
+  background-color: #0c5a9e;
+  background-repeat: no-repeat;
+
+  
+  background-image: -webkit-linear-gradient(
+    left,
+    rgba(233, 233, 233, 0.05) 0%,
+    rgba(233, 233, 233, 0.05) 37%,
+    rgba(233, 233, 233, 0.8) 45%,
+    rgba(233, 233, 233, 0.0) 50%
+  );
+
+  background-size: 300% 300%, 100% 100%;
+  
+  transition: background-position 0s ease;
+}
+
+.send:hover {
+  cursor: pointer;
+  background-position-x: left;
+  transition-duration: 0.7s;
+}
+
+.send:not(:hover) {
+  background-position-x: right;
+  transition-duration: 0.7s;
+}
+
+.send:active {
+  cursor: grabbing;
+}
+
+
+/* Règles pour le FIELDSET */
+fieldset {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  border-radius: 5px;
+  border: solid 1px var(--black);
+}
+
+fieldset input:hover {
+  cursor: pointer;
+}
+
+fieldset input:active {
+  cursor: grabbing;
+}
