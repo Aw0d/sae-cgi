@@ -12,11 +12,19 @@
 /* Règles pour l'image */
 .cest_quoi_cgi_div1 {
   position: relative;
+
   margin-bottom: 20px;
+  margin-inline: auto;
+  width: 80%;
+}
+
+#cgi {
+  width: 100%;
+  border-radius: 5px;
 }
 
 .badge {
-  font-size: xx-large;
+  font-size: 2em;
 
   position: absolute;
   bottom: 0;
@@ -26,14 +34,9 @@
   background-color: rgba(0, 0, 0, 0.6);
   border-radius: 0 5px 0 5px;
 
-  padding: 0.3em;
+  padding: 8px;
   margin: 0;
   margin-bottom: 4px;
-}
-
-#cgi {
-  width: 80%;
-  border-radius: 5px;
 }
 
 .cest_quoi_cgi_div2 {
